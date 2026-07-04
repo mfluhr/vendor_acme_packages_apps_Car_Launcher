@@ -29,11 +29,15 @@ android_library {
 
     static_libs: [
         "CarLauncher-core",
+        "oem-token-lib",
     ],
 
     libs: [
         "android.car",
+        "token-shared-lib-prebuilt",
     ],
+
+    enforce_uses_libs: false,
 
     // TODO(b/319708040): re-enable use_resource_processor
     use_resource_processor: false,
@@ -57,11 +61,15 @@ android_app {
 
     static_libs: [
         "AcmeCarLauncher-core",
+        "oem-token-lib",
     ],
 
     libs: [
         "android.car",
+        "token-shared-lib-prebuilt",
     ],
+
+    enforce_uses_libs: false,
 
     required: [
         "allowed_privapp_com.acme.car.launcher",
