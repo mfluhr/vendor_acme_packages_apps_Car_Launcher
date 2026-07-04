@@ -43,5 +43,7 @@
         <permission name="android.permission.BIND_APPWIDGET"/>
         <!-- Not used - part of unrelated optional WmShell features -->
         <deny-permission name="android.permission.SET_WALLPAPER_DIM_AMOUNT" />
+        <deny-permission name="android.permission.LOG_COMPAT_CHANGE" />
+        <deny-permission name="android.permission.READ_COMPAT_CHANGE_CONFIG" />
     </privapp-permissions>
 </permissions>
