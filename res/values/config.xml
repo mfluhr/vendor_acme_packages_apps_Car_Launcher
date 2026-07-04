@@ -18,6 +18,12 @@
     <!-- The calm mode component name needs to be adjusted to reflect the new package name. -->
     <string name="config_calmMode_componentName">com.acme.car.launcher/com.android.car.carlauncher.calmmode.CalmModeActivity</string>
 
+    <!-- A list of package names that provide the cards to display on the home screen
+         Adjusted to match the cards the classic car launcher is showing in landscape mode. -->
+    <string-array name="config_homeCardModuleClasses_horizontal" translatable="false">
+        <item>com.android.car.carlauncher.homescreen.audio.AudioCardModule</item>
+    </string-array>
+
     <!-- This is used to display an empty home screen within CarLauncher activity. -->
     <bool name="config_useDewdLauncher">true</bool>
 </resources>
