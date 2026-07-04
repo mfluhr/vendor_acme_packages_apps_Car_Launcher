@@ -18,6 +18,6 @@
     <!-- The calm mode component name needs to be adjusted to reflect the new package name. -->
     <string name="config_calmMode_componentName">com.acme.car.launcher/com.android.car.carlauncher.calmmode.CalmModeActivity</string>
 
-    <!-- This is needed to display the widgets inside the ControllerActivity. -->
+    <!-- This is used to display an empty home screen within CarLauncher activity. -->
     <bool name="config_useDewdLauncher">true</bool>
 </resources>
